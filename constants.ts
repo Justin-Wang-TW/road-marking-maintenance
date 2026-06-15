@@ -5,13 +5,13 @@ import { Station, StationCode, Task, TaskStatus, User, UserRole } from './types'
  * 請確保 SCRIPT_URL 是你 GAS 部署後產生的「網頁應用程式 URL」
  */
 export const APP_CONFIG = {
-  SHEET_ID: '1qmEM4QjJiANOszU7_GiOU9ENsyL9vOSKsFfdvRaH4tg',
+  SHEET_ID: '1tXaSiJY9WqiH4Foy-7qTqxMoKCT8E9WZPyQcm1tN3rw',
   // 注意：此處 URL 應與 App.tsx 中使用的 API 位址保持一致
-  SCRIPT_URL: 'https://script.google.com/macros/s/AKfycby5g3xOHxJzvKR79BuLRRdALvRgRjG9EYfoZ8jxO2gJUevytapCoZ3-gatfLNpUnRJCeQ/exec',
+  SCRIPT_URL: 'https://script.google.com/macros/s/AKfycbxXKrW5P5OqMKzQkDHttjWaFzskQOomX83lrjFkLOvAaDCzZDKtqtCncokZ293zGKl2/exec',
   // [新增] 指定檔案上傳的 Google Drive 資料夾 ID
   // 請從 Google Drive 資料夾網址取得 ID (例如: folders/123xyz... 中的 123xyz...)
   // 若未設定，後端將使用預設邏輯 (如建立新資料夾或存於根目錄)
-  UPLOAD_FOLDER_ID: '14Q298fPOjV17lx215IbmKD63AGJ3PYoS' 
+  UPLOAD_FOLDER_ID: '1OR1OnPNg0DyOWbuwtcTSBiZGlogylh_E' 
 };
 
 /**
