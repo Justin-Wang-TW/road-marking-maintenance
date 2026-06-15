@@ -1,0 +1,90 @@
+
+/* High Contrast Mode for Outdoor Use */
+body.high-contrast {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+
+/* Force high contrast on text */
+body.high-contrast .text-gray-500,
+body.high-contrast .text-gray-600,
+body.high-contrast .text-gray-700,
+body.high-contrast .text-gray-800,
+body.high-contrast .text-gray-900 {
+  color: #000000 !important;
+}
+
+body.high-contrast .text-blue-600,
+body.high-contrast .text-blue-700 {
+  color: #0000EE !important; /* Standard Link Blue */
+}
+
+/* Enhance Borders */
+body.high-contrast .border,
+body.high-contrast .border-t,
+body.high-contrast .border-b,
+body.high-contrast .border-l,
+body.high-contrast .border-r {
+  border-color: #000000 !important;
+  border-width: 2px !important;
+}
+
+/* Enhance Buttons */
+body.high-contrast button {
+  border: 2px solid #000000 !important;
+  font-weight: bold !important;
+}
+
+body.high-contrast button.bg-blue-600 {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  border: 2px solid #ffffff !important;
+}
+
+/* Enhance Inputs */
+body.high-contrast input,
+body.high-contrast select,
+body.high-contrast textarea {
+  border: 2px solid #000000 !important;
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  font-weight: bold !important;
+}
+
+/* Enhance Cards/Containers */
+body.high-contrast .bg-white,
+body.high-contrast .bg-gray-50 {
+  background-color: #ffffff !important;
+  border: 2px solid #000000 !important;
+  box-shadow: none !important;
+}
+
+/* Status Badges */
+body.high-contrast .bg-green-100 {
+  background-color: #ffffff !important;
+  border: 2px solid #006400 !important;
+  color: #006400 !important;
+}
+
+body.high-contrast .bg-yellow-100 {
+  background-color: #ffffff !important;
+  border: 2px solid #8B8000 !important;
+  color: #000000 !important;
+}
+
+body.high-contrast .bg-red-100 {
+  background-color: #ffffff !important;
+  border: 2px solid #8B0000 !important;
+  color: #8B0000 !important;
+}
+
+/* Sidebar Active State */
+body.high-contrast .bg-blue-50 {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+/* Icons */
+body.high-contrast svg {
+  stroke-width: 3px !important;
+}
